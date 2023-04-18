@@ -69,18 +69,16 @@ export type SectionId = typeof SectionId[keyof typeof SectionId];
  */
 export const heroData: Hero = {
   imageSrc: heroImage,
-  name: `I'm Tim Baker.`,
+  name: `I'm Fran Figueroa.`,
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a Victoria based <strong className="text-stone-100">Full Stack Software Engineer</strong>, currently working
-        at <strong className="text-stone-100">Instant Domains</strong> helping build a modern, mobile-first, domain
-        registrar and site builder.
+        I'm Fran Figueroa <strong className="text-stone-100">Information system engineer</strong>, currently working
+        as a  <strong className="text-stone-100">freelancer Data Scientist</strong> helping small businesses in laveraging their data 
+        to achived improved outcomes.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time time, you can catch me training in <strong className="text-stone-100">Muay Thai</strong>,
-        plucking my <strong className="text-stone-100">banjo</strong>, or exploring beautiful{' '}
-        <strong className="text-stone-100">Vancouver Island</strong>.
+      In my free time, I prioritize personal development by reading, meditating, and engaging in physical training. Additionally, I am passionate about contributing to environmental sustainability through my professional skills
       </p>
     </>
   ),
@@ -268,16 +266,16 @@ export const portfolioItems: PortfolioItem[] = [
  */
 export const education: TimelineItem[] = [
   {
-    date: 'April 2007',
-    location: 'Clown college',
-    title: 'Masters in Beer tasting',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    date: '2021',
+    location: 'UTN - Universidad Tecnologica Nacional',
+    title: 'Information systems engineering',
+    content: <p></p>,
   },
   {
-    date: 'March 2003',
-    location: 'School of Business',
-    title: 'What did you study 101',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    date: '2020',
+    location: 'IAE-Buiseness School',
+    title: 'PROGRAMA NAVES ',
+    content: <p></p>,
   },
 ];
 
@@ -365,9 +363,9 @@ export const contact: ContactSection = {
  * Social items
  */
 export const socialLinks: Social[] = [
-  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/tbakerx'},
-  {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/8553186/tim-baker'},
-  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/timbakerx/'},
-  {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/tbakerx/'},
+  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/FranFigueroa'},
+  {label: 'Stack Overflow', Icon: StackOverflowIcon, href: ''},
+  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/franco-figueroa-575696193/'},
+  {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/_frannfigueroa/'},
   {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/TimBakerx'},
 ];
